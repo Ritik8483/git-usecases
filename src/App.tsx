@@ -21,3 +21,15 @@ export default App;
 
 // 2.If you added large files and the git push limit exceeds then
 // For example you have a large video of (700mb) and you pushed it
+//When you take out development branch from master you will found that development branch will carry 2 commits from master
+//Without including large video .git size = 69.4 KB (71,116 bytes)
+//Node modules = 85.3 MB
+//With including large video .git size = 1.23 GB which is very large
+// Note : even if we remove that video from the code but still it is in commit history hence .git size remains 1.23GB
+//Now to remove that code as the commit limit exceeds 
+//git log (it will give log of all commit present in current branch is descending order);
+//git checkout 9ca30ec4a10662ddf8722612896650126656a408 (Move back to that commit which doesn't include video in the code)
+//
+
+
+//git add src/App.tsx (Will add only single file)
