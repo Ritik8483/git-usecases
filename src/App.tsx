@@ -3,7 +3,7 @@ import LargeFile from "./components/LargeFile";
 function App() {
   return (
     <div>
-      Git commands
+      Git commands Dont DO
       <LargeFile/>
     </div>
   );
@@ -29,7 +29,8 @@ export default App;
 //Now to remove that code as the commit limit exceeds 
 //git log (it will give log of all commit present in current branch is descending order);
 //git checkout 9ca30ec4a10662ddf8722612896650126656a408 (Move back to that commit which doesn't include video in the code)
-//
+//git checkout branch-name to switch a branch from the commit and then merge that commit to code
+
 
 
 //git add src/App.tsx (Will add only single file)
