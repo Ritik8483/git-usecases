@@ -3,7 +3,7 @@ import LargeFile from "./components/LargeFile";
 function App() {
   return (
     <div>
-      Git commands Dont DO
+      Git commands
       <LargeFile/>
     </div>
   );
@@ -31,6 +31,7 @@ export default App;
 //git checkout 9ca30ec4a10662ddf8722612896650126656a408 (Move back to that commit which doesn't include video in the code)
 //git checkout branch-name to switch a branch from the commit and then merge that commit to code
 
-
+//REVERTING A COMMIT 
+// git revert --no-commit e3c7010a7526fff25a7f8ce5fd9cdd3a632713ca HEAD
 
 //git add src/App.tsx (Will add only single file)
